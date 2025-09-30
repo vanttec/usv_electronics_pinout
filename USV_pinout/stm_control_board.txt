@@ -1,0 +1,8 @@
+Warning: Footprint 'G***' has no assigned symbol.
+Warning: Footprint 'REF**3' has no assigned symbol.
+Warning: Footprint 'REF**2' has no assigned symbol.
+Warning: Footprint 'REF**1' has no assigned symbol.
+Warning: Footprint 'G***' has no assigned symbol.
+Warning: Footprint 'REF**3' has no assigned symbol.
+Warning: Footprint 'REF**2' has no assigned symbol.
+Warning: Footprint 'REF**1' has no assigned symbol.
