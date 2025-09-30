@@ -10,6 +10,142 @@
 		(company "Vanttec")
 	)
 	(lib_symbols
+		(symbol "LM2596_Module_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LM2596_Module"
+				(at 0 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM2596_Module_1_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LM2596_Module_1_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+15V"
 			(power)
 			(pin_numbers
@@ -749,6 +885,260 @@
 					(at 15.24 -11.43 180)
 					(length 2.54)
 					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "vanttec_pcbs_libs:LM2596_Module"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LM2596_Module"
+				(at 0 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM2596_Module_0_1"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LM2596_Module_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "OUT+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "vanttec_pcbs_libs:X8R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "X8R_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "X8R_1_1"
+				(pin power_in line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "SBUS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2099,7 +2489,7 @@
 	)
 	(rectangle
 		(start 112.395 12.065)
-		(end 226.695 94.615)
+		(end 220.98 94.615)
 		(stroke
 			(width 0)
 			(type default)
@@ -2108,6 +2498,30 @@
 			(type none)
 		)
 		(uuid 0066df91-062c-4b19-8336-f158d41c80a7)
+	)
+	(rectangle
+		(start 220.98 12.7)
+		(end 284.48 93.98)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 03284fa6-98aa-424d-b4fb-71f4da91c2b2)
+	)
+	(rectangle
+		(start 148.59 95.25)
+		(end 196.85 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5687e9c3-d7d2-4fec-b16e-2ee151df602f)
 	)
 	(rectangle
 		(start 12.065 94.615)
@@ -2133,17 +2547,6 @@
 		)
 		(uuid ae9cfb82-7a2d-4b3a-824f-34ced99acbc0)
 	)
-	(text "IMPORTANTE: \nFalta de conectar:\n- Buck Converters\n- No se a que vaya uno de los bucks\n- Radio? (O la neta no se que sea)\n- Las conexiones de la Jetson la neta no creo que importen"
-		(exclude_from_sim no)
-		(at 156.718 118.618 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "355326d0-e6c5-4df2-9272-8be3f7106487")
-	)
 	(text "STM32 Control Board"
 		(exclude_from_sim no)
 		(at 70.104 177.8 0)
@@ -2154,9 +2557,29 @@
 		)
 		(uuid "3e910c31-d9cd-4576-9b26-45d9b2c778df")
 	)
+	(text "FrSky X8R\nOperating V:\n4-10V\n"
+		(exclude_from_sim no)
+		(at 258.318 79.248 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3eca5004-ed8a-464c-85dc-04403d8e0414")
+	)
+	(text "huh"
+		(exclude_from_sim no)
+		(at 263.398 48.768 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "445e107f-a4b3-4fbc-9593-a9fd2eb6c64c")
+	)
 	(text "LiPo Battery 2\n\n"
 		(exclude_from_sim no)
-		(at 166.624 79.248 0)
+		(at 162.814 77.978 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2164,15 +2587,35 @@
 		)
 		(uuid "44cf28e2-cb98-424a-aa62-3a1f58768bc6")
 	)
+	(text "Step-Down Regulators (LM2596)"
+		(exclude_from_sim no)
+		(at 247.396 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58200ed5-1c73-404e-90e8-573ab0dc729f")
+	)
 	(text "Power-Distribution-Board for Jetson, Sensors and STM32"
 		(exclude_from_sim no)
-		(at 167.386 91.44 0)
+		(at 166.878 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "709c233f-7a84-46d6-8fb2-9236fab8a5bc")
+	)
+	(text "ESC1 and ESC2 == PWM\nESC7 and ESC8 == PWM\n"
+		(exclude_from_sim no)
+		(at 121.92 143.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a16fea23-757d-4f8e-ba71-7f34d7461f7b")
 	)
 	(text "LiPo Battery 1\n\n"
 		(exclude_from_sim no)
@@ -2207,8 +2650,16 @@
 		(uuid "21ead90e-7bb2-4b9e-998f-2cc5c26c4b40")
 	)
 	(no_connect
+		(at 177.8 53.34)
+		(uuid "22e140f7-c2ae-45e5-abae-bb88266bc616")
+	)
+	(no_connect
 		(at 54.61 33.02)
 		(uuid "2364a051-1662-49e8-89cc-d74ba9f7cf36")
+	)
+	(no_connect
+		(at 43.18 125.73)
+		(uuid "26ae731d-803f-4e03-b76c-c51234531e69")
 	)
 	(no_connect
 		(at 104.14 139.7)
@@ -2223,11 +2674,11 @@
 		(uuid "341e7bd4-05fe-403f-84da-ca6c4514cb30")
 	)
 	(no_connect
-		(at 157.48 31.75)
+		(at 153.67 30.48)
 		(uuid "3c04cf69-36c1-4c30-9946-00385936bead")
 	)
 	(no_connect
-		(at 170.18 31.75)
+		(at 166.37 30.48)
 		(uuid "3d265a1c-688e-4951-8ff1-22fcbaa93938")
 	)
 	(no_connect
@@ -2251,8 +2702,12 @@
 		(uuid "6853963b-b316-4998-a77f-7acb62d8dccc")
 	)
 	(no_connect
-		(at 160.02 31.75)
+		(at 156.21 30.48)
 		(uuid "68716f53-7764-4b75-b8ea-830b940ee7b0")
+	)
+	(no_connect
+		(at 43.18 140.97)
+		(uuid "68a46ac9-fd59-422b-899e-280c4604612c")
 	)
 	(no_connect
 		(at 64.77 161.29)
@@ -2263,7 +2718,7 @@
 		(uuid "71558a43-46a7-4e52-bf4e-59fa1016133e")
 	)
 	(no_connect
-		(at 175.26 31.75)
+		(at 171.45 30.48)
 		(uuid "718cc1a3-645e-4901-aaa7-8370bb56b5cb")
 	)
 	(no_connect
@@ -2271,7 +2726,7 @@
 		(uuid "72bf2e6c-4f86-4cd1-8bd6-bd9c515d43a2")
 	)
 	(no_connect
-		(at 172.72 31.75)
+		(at 168.91 30.48)
 		(uuid "7894585a-638e-41a6-92f3-cfa2eb815bbb")
 	)
 	(no_connect
@@ -2295,6 +2750,10 @@
 		(uuid "998f0df9-82b7-4a7c-95bf-1cdff0c47eb8")
 	)
 	(no_connect
+		(at 177.8 52.07)
+		(uuid "9e0ec52c-a1f8-4431-8b0f-a1274970cc39")
+	)
+	(no_connect
 		(at 62.23 161.29)
 		(uuid "a831e591-14b1-465e-9b87-9f073f23e1a8")
 	)
@@ -2315,12 +2774,24 @@
 		(uuid "b83df82f-4d60-4eec-88ba-21be2558d962")
 	)
 	(no_connect
+		(at 43.18 138.43)
+		(uuid "b9f2911a-ae2c-4987-accf-8e8c589f7c1b")
+	)
+	(no_connect
 		(at 48.26 45.72)
 		(uuid "bb508f3f-0b7e-43a9-a9d0-b660bf62d42d")
 	)
 	(no_connect
 		(at 57.15 33.02)
 		(uuid "bbf4b914-8234-40bb-95b3-3a5bc5b61000")
+	)
+	(no_connect
+		(at 43.18 130.81)
+		(uuid "c2c4e9d4-7444-4e94-a007-4ca20a47935b")
+	)
+	(no_connect
+		(at 43.18 133.35)
+		(uuid "d004bbba-c6bd-471b-8f08-2c12bcfd3ea7")
 	)
 	(no_connect
 		(at 71.12 110.49)
@@ -2339,7 +2810,7 @@
 		(uuid "d9cc63ff-9a23-4e0d-b1ac-7c983dffce11")
 	)
 	(no_connect
-		(at 162.56 31.75)
+		(at 158.75 30.48)
 		(uuid "da322c0c-c091-4445-bbe9-97657de5612b")
 	)
 	(no_connect
@@ -2375,12 +2846,26 @@
 		(uuid "ee70aeb8-7d42-4499-884e-151af964be37")
 	)
 	(no_connect
-		(at 167.64 31.75)
+		(at 163.83 30.48)
 		(uuid "f1b3a851-dc3a-4741-af34-57519696b400")
 	)
 	(no_connect
-		(at 165.1 31.75)
+		(at 161.29 30.48)
 		(uuid "f5d12132-8627-4f3d-81d1-36ddaac10dba")
+	)
+	(no_connect
+		(at 43.18 135.89)
+		(uuid "f8d63ba0-48ac-4634-8274-b226ca591f0a")
+	)
+	(wire
+		(pts
+			(xy 236.22 38.1) (xy 232.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022326e6-de8b-4358-882b-d683cca163d3")
 	)
 	(wire
 		(pts
@@ -2394,23 +2879,43 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 46.99) (xy 151.13 46.99)
+			(xy 177.8 41.91) (xy 177.8 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f81deed-150e-4666-9e9f-e9c472894913")
+		(uuid "098f06cc-3b6d-45fe-8b41-3a42eebf62c2")
 	)
 	(wire
 		(pts
-			(xy 181.61 46.99) (xy 191.77 46.99)
+			(xy 177.8 45.72) (xy 187.96 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "12973087-e3cd-4a95-9674-f833bd864e7a")
+	)
+	(wire
+		(pts
+			(xy 232.41 43.18) (xy 236.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "185b18df-0668-40fe-a4f9-1b3f907eefcd")
+	)
+	(wire
+		(pts
+			(xy 251.46 66.04) (xy 256.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2399fe8d-054c-48dc-8ffc-5a9dc22e54e6")
 	)
 	(wire
 		(pts
@@ -2434,6 +2939,26 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 107.95) (xy 166.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2713fb06-39f7-43fb-a496-ef8388a50b9c")
+	)
+	(wire
+		(pts
+			(xy 139.7 40.64) (xy 147.32 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae7dce2-75f6-489f-94c0-94ce853fbd60")
+	)
+	(wire
+		(pts
 			(xy 39.37 146.05) (xy 43.18 146.05)
 		)
 		(stroke
@@ -2454,13 +2979,33 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 41.91) (xy 151.13 43.18)
+			(xy 147.32 35.56) (xy 147.32 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4098ed20-2660-4991-82c5-a4151b164f72")
+	)
+	(wire
+		(pts
+			(xy 147.32 40.64) (xy 147.32 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4375cf9b-25cd-4d43-bb60-06febff9fa14")
+	)
+	(wire
+		(pts
+			(xy 256.54 38.1) (xy 262.89 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b21320b-c021-4f22-81eb-82227a87c4cc")
 	)
 	(wire
 		(pts
@@ -2504,7 +3049,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 49.53) (xy 191.77 49.53)
+			(xy 228.6 64.77) (xy 228.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58d90ef1-9e2f-4544-852d-68f66aef7c54")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 187.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2514,7 +3069,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 52.07) (xy 151.13 53.34)
+			(xy 139.7 38.1) (xy 147.32 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636af3ee-7446-4559-bfab-79f565bd030a")
+	)
+	(wire
+		(pts
+			(xy 147.32 50.8) (xy 147.32 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2534,7 +3099,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 167.64 69.85)
+			(xy 163.83 59.69) (xy 163.83 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2544,13 +3109,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 49.53) (xy 151.13 49.53)
+			(xy 139.7 53.34) (xy 147.32 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72ff36d1-df10-49c2-8522-5cac6eb3329f")
+		(uuid "6cfccdcf-bb56-4dfa-bbdf-c27e05301e5c")
 	)
 	(wire
 		(pts
@@ -2574,17 +3139,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 44.45) (xy 151.13 44.45)
+			(xy 177.8 38.1) (xy 189.23 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77e4e8b8-acfe-492c-a20e-7b063a247969")
+		(uuid "7c7a6bf6-cb0a-4891-8f69-47606f70d9ad")
 	)
 	(wire
 		(pts
-			(xy 181.61 48.26) (xy 181.61 46.99)
+			(xy 177.8 46.99) (xy 177.8 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2594,13 +3159,33 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 60.96) (xy 165.1 67.31)
+			(xy 228.6 66.04) (xy 231.14 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0eb953-6e0c-41fe-abd0-43af8ab8cf77")
+	)
+	(wire
+		(pts
+			(xy 161.29 59.69) (xy 161.29 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "806d1fe4-36ee-46c1-9d04-b3fa81d2b41e")
+	)
+	(wire
+		(pts
+			(xy 228.6 71.12) (xy 228.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d371f3-56dd-4322-a497-8e4974513f77")
 	)
 	(wire
 		(pts
@@ -2611,6 +3196,16 @@
 			(type default)
 		)
 		(uuid "8bbdcbb3-676e-485a-84e5-06138a1dd209")
+	)
+	(wire
+		(pts
+			(xy 26.67 123.19) (xy 43.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92bea9d8-caf0-49ce-b5f2-3477f63a8679")
 	)
 	(wire
 		(pts
@@ -2634,6 +3229,26 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 128.27) (xy 43.18 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980a81bb-b010-4cae-92da-51fd5baadd34")
+	)
+	(wire
+		(pts
+			(xy 177.8 43.18) (xy 189.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e56e32b-877c-4f8b-8ebd-0f0055767185")
+	)
+	(wire
+		(pts
 			(xy 41.91 53.34) (xy 48.26 53.34)
 		)
 		(stroke
@@ -2641,6 +3256,36 @@
 			(type default)
 		)
 		(uuid "a7e34950-907e-49f1-86ed-3f43cdbbead3")
+	)
+	(wire
+		(pts
+			(xy 232.41 44.45) (xy 232.41 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b472cc-60d4-4969-9984-4478b8ce9905")
+	)
+	(wire
+		(pts
+			(xy 139.7 48.26) (xy 147.32 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aabafc3c-e221-4dee-b89c-818840b4bae3")
+	)
+	(wire
+		(pts
+			(xy 256.54 43.18) (xy 262.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac92e03-9ad9-4a10-af2c-cbeb5041f887")
 	)
 	(wire
 		(pts
@@ -2654,13 +3299,33 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 52.07) (xy 151.13 52.07)
+			(xy 177.8 35.56) (xy 189.23 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b573f3af-cd42-49e5-9c5b-697eed680019")
+		(uuid "aeb9481d-2df2-4f14-9b03-105532b9bafd")
+	)
+	(wire
+		(pts
+			(xy 139.7 35.56) (xy 147.32 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f09c52-4d85-4328-b44e-fb2234474f4d")
+	)
+	(wire
+		(pts
+			(xy 177.8 36.83) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b687f009-2fcd-4bf0-b7a0-4fbfe207b128")
 	)
 	(wire
 		(pts
@@ -2684,13 +3349,33 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 41.91) (xy 151.13 41.91)
+			(xy 162.56 111.76) (xy 166.37 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdf4dc75-a363-42e5-ad05-5fadc7003988")
+		(uuid "c026cc71-1232-4254-9f52-ac3153a07642")
+	)
+	(wire
+		(pts
+			(xy 177.8 40.64) (xy 189.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5ba3c85-ce2d-4eb6-91b5-4bed5bf0866d")
+	)
+	(wire
+		(pts
+			(xy 162.56 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce324296-3009-4fac-b7a6-35a5203ad48b")
 	)
 	(wire
 		(pts
@@ -2704,6 +3389,46 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 71.12) (xy 228.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1355916-1276-4525-8079-4413a8bc6f12")
+	)
+	(wire
+		(pts
+			(xy 139.7 43.18) (xy 147.32 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1bdc380-5f9b-4f19-90da-b1a6458578b4")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 147.32 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3459b7f-ed68-4d4c-8ed9-ac4771de0ee2")
+	)
+	(wire
+		(pts
+			(xy 139.7 45.72) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d399f04c-b84c-4e08-b4ea-c57d2c99314f")
+	)
+	(wire
+		(pts
 			(xy 41.91 55.88) (xy 48.26 55.88)
 		)
 		(stroke
@@ -2711,16 +3436,6 @@
 			(type default)
 		)
 		(uuid "d83db269-8238-4a5b-83bc-44893242594f")
-	)
-	(wire
-		(pts
-			(xy 143.51 54.61) (xy 151.13 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd15c88a-a834-4265-a58d-b1533056966d")
 	)
 	(wire
 		(pts
@@ -2734,7 +3449,27 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 46.99) (xy 151.13 48.26)
+			(xy 232.41 35.56) (xy 232.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32c3a4d-9f27-41af-9e8a-b13d679d12cb")
+	)
+	(wire
+		(pts
+			(xy 251.46 71.12) (xy 256.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78ce461-d562-499c-ae05-2a615d2bf48d")
+	)
+	(wire
+		(pts
+			(xy 147.32 45.72) (xy 147.32 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2806,6 +3541,28 @@
 			)
 		)
 	)
+	(global_label "LM2596_2+"
+		(shape input)
+		(at 232.41 44.45 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12cf3ff1-25e5-4e41-b817-55f15528b2fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 58.5022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC3_GND"
 		(shape input)
 		(at 85.09 38.1 0)
@@ -2819,6 +3576,28 @@
 		(uuid "1a9d4a44-4ff6-4a7f-8dfa-848128dd8599")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.7513 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LM2596_2+"
+		(shape input)
+		(at 189.23 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ac98386-c118-4970-ba4f-697b2ca8f5ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2822 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,6 +3629,50 @@
 			)
 		)
 	)
+	(global_label "Barrel_Jack_GND"
+		(shape input)
+		(at 189.23 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bf78102-3102-479a-94c1-8a709bbb8923")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.9994 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LM2596_1+"
+		(shape input)
+		(at 228.6 72.39 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fc713ee-f7c7-4244-998d-4a7818a86dce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 86.4422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_H"
 		(shape input)
 		(at 120.65 128.27 0)
@@ -2874,7 +3697,7 @@
 	)
 	(global_label "Jetson_Barrel_Jack_VIN"
 		(shape input)
-		(at 143.51 44.45 180)
+		(at 139.7 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2884,7 +3707,51 @@
 		)
 		(uuid "273bc298-4f7b-4200-b5c0-f80f42ac3371")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.5116 44.45 0)
+			(at 114.7016 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "X8R_GND"
+		(shape input)
+		(at 162.56 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e7ae7c9-3400-4d58-8810-5877c3099eed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.0477 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "X8R_GND"
+		(shape input)
+		(at 27.94 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "341e1050-f8d9-444a-9cc8-c273e2387400")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.4277 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,9 +3783,31 @@
 			)
 		)
 	)
+	(global_label "X8R_VIN"
+		(shape input)
+		(at 162.56 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "370f3e9b-37ba-4df2-aecc-9ab5b5286156")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.8943 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LiDAR_Barrel_Jack_GND"
 		(shape input)
-		(at 143.51 52.07 180)
+		(at 139.7 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2928,7 +3817,7 @@
 		)
 		(uuid "3840edaa-14a6-43fc-b711-c35bbf5f22e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.5115 52.07 0)
+			(at 114.7015 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +3829,7 @@
 	)
 	(global_label "STM_Board_Battery +"
 		(shape input)
-		(at 191.77 49.53 0)
+		(at 187.96 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2950,7 +3839,7 @@
 		)
 		(uuid "3cca49d2-ec78-4970-b09a-7ff57f20e065")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0749 49.53 0)
+			(at 211.2649 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,6 +3871,28 @@
 			)
 		)
 	)
+	(global_label "X8R_SBUS"
+		(shape input)
+		(at 29.21 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52904be3-fc79-4692-a8d1-0ce3316b5ac2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.5487 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC3_PWM"
 		(shape input)
 		(at 119.38 137.16 0)
@@ -3004,6 +3915,72 @@
 			)
 		)
 	)
+	(global_label "X8R_GND"
+		(shape input)
+		(at 256.54 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d3accd1-5010-45ef-8c6d-6de45819f580")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.0523 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Barrel_Jack_VIN"
+		(shape input)
+		(at 189.23 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "64e084b2-2eb1-4680-97fb-64e469719be8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.1528 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LM2596_1-"
+		(shape input)
+		(at 139.7 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6cd70a37-6a62-4078-ae1c-413d3bdafa5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.6478 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN_L"
 		(shape input)
 		(at 120.65 130.81 0)
@@ -3017,6 +3994,50 @@
 		(uuid "6d346bc5-1e85-47ea-b078-6b7853540046")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "?+"
+		(shape input)
+		(at 262.89 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79f045f9-b804-446d-801d-0580b573cb09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.5362 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LM2596_2-"
+		(shape input)
+		(at 232.41 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d735cdf-57c6-4f30-afc9-7b9153945c18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.41 21.5078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,6 +4069,28 @@
 			)
 		)
 	)
+	(global_label "?+"
+		(shape input)
+		(at 262.89 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8e2dbf3e-4515-480e-a013-808c6e08ef64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.5362 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC1_VIN"
 		(shape input)
 		(at 40.64 40.64 180)
@@ -3061,6 +4104,28 @@
 		(uuid "99c3a6d1-47eb-4a8a-a846-c37c9a1f0bce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 28.8253 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "X8R_SBUS"
+		(shape input)
+		(at 162.56 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae209893-fd58-43c2-9de1-29fe1a17d1af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.8987 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3092,6 +4157,28 @@
 			)
 		)
 	)
+	(global_label "LM2596_1-"
+		(shape input)
+		(at 228.6 64.77 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b27e4461-68eb-4180-b396-1b6437d2bc76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 50.7178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC1_GND"
 		(shape input)
 		(at 40.64 38.1 180)
@@ -3114,9 +4201,31 @@
 			)
 		)
 	)
+	(global_label "LM2596_1+"
+		(shape input)
+		(at 139.7 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb924bff-464c-4d7f-908a-c6e660dfca89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.6478 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Jetson_Barrel_Jack_GND"
 		(shape input)
-		(at 143.51 41.91 180)
+		(at 139.7 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3126,7 +4235,7 @@
 		)
 		(uuid "d0aae2bb-8fb3-45d6-9f41-093ece5cd732")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.665 41.91 0)
+			(at 113.855 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3180,9 +4289,31 @@
 			)
 		)
 	)
+	(global_label "LM2596_2-"
+		(shape input)
+		(at 189.23 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e07b3186-2dab-4e95-bb9f-9936d62677b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2822 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STM_Board_Battery -"
 		(shape input)
-		(at 191.77 46.99 0)
+		(at 187.96 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3192,7 +4323,7 @@
 		)
 		(uuid "e3f7c4a0-e254-49fa-9c3b-aeadb604dbb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0749 46.99 0)
+			(at 211.2649 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +4357,7 @@
 	)
 	(global_label "IMU_Barrel_Jack_VIN"
 		(shape input)
-		(at 143.51 49.53 180)
+		(at 139.7 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3236,7 +4367,7 @@
 		)
 		(uuid "e4fd8882-d7e6-4710-a306-fb60400b8a44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.2329 49.53 0)
+			(at 117.4229 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3248,7 +4379,7 @@
 	)
 	(global_label "IMU_Barrel_Jack_GND"
 		(shape input)
-		(at 143.51 46.99 180)
+		(at 139.7 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3258,7 +4389,7 @@
 		)
 		(uuid "e7edc8a6-9881-458f-a241-8e930b95b80d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.3863 46.99 0)
+			(at 116.5763 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +4423,7 @@
 	)
 	(global_label "LiDAR_Barrel_Jack_VIN"
 		(shape input)
-		(at 143.51 54.61 180)
+		(at 139.7 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3302,12 +4433,34 @@
 		)
 		(uuid "f6bae872-270d-4655-b020-4ebabac5496b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.3581 54.61 0)
+			(at 115.5481 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "X8R_VIN"
+		(shape input)
+		(at 256.54 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f91d9ac4-42ec-4fb3-9752-bd9a9c02f90e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.2057 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3337,7 +4490,7 @@
 	(symbol
 		(lib_name "power_distribution_board_1")
 		(lib_id "vanttec_pcbs_libs:power_distribution_board")
-		(at 166.37 43.18 0)
+		(at 162.56 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3346,7 +4499,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b0a226d-ea0b-4b1f-9d58-e8d7e907496d")
 		(property "Reference" "PDB2"
-			(at 169.7833 60.96 0)
+			(at 165.9733 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +4508,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 169.7833 62.23 0)
+			(at 165.9733 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +4517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 43.18 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +4526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 43.18 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +4535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 43.18 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +4638,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "273d7000-2d43-4ded-8b21-de1e3b14fe1a")
 		(property "Reference" "STM32"
 			(at 85.9633 109.22 0)
@@ -3666,7 +4818,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 67.31 0)
+		(at 161.29 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3675,7 +4827,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f04a0c4-6d3a-4bbe-8613-5f1c57ad6d8f")
 		(property "Reference" "#PWR05"
-			(at 165.1 73.66 0)
+			(at 161.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,7 +4836,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 72.39 0)
+			(at 161.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +4844,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 67.31 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +4853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 67.31 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +4862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 67.31 0)
+			(at 161.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,26 +5091,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 167.64 69.85 180)
+		(lib_id "vanttec_pcbs_libs:LM2596_Module")
+		(at 241.3 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c8ba8a41-0f45-441a-bc09-068af85f187f")
-		(property "Reference" "#PWR04"
-			(at 167.64 66.04 0)
+		(uuid "7153f9d9-cafc-412f-bee7-fb998196bcad")
+		(property "Reference" "LM2596_Module1"
+			(at 241.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "+14.8V"
-			(at 167.64 74.93 0)
+		(property "Value" "~"
+			(at 241.3 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3966,7 +5117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 69.85 0)
+			(at 241.3 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +5126,155 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 69.85 0)
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5114b56e-cd6b-487c-b5d1-92d25fa6aa3f")
+		)
+		(pin ""
+			(uuid "7e20fe6b-2a03-424e-8927-2d5825d22c46")
+		)
+		(pin ""
+			(uuid "74220792-166c-4d18-a98e-8ea992f98bdf")
+		)
+		(pin ""
+			(uuid "9ccb6614-2698-4a52-b996-bf934b5df22d")
+		)
+		(instances
+			(project ""
+				(path "/cf39358b-0916-45cc-ae16-b13d7ea66151"
+					(reference "LM2596_Module1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vanttec_pcbs_libs:X8R")
+		(at 173.99 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4e8ac74-dd63-417c-9f6d-dc3788bdb6c3")
+		(property "Reference" "X8R_telemetry"
+			(at 180.34 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 180.34 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "93bf9121-cabe-4172-8168-8bb74f95933c")
+		)
+		(pin ""
+			(uuid "56377c2c-825d-40fc-a8ff-d529a2f92627")
+		)
+		(pin ""
+			(uuid "edae8f50-792b-4115-b3ed-7d25a2f0dbf1")
+		)
+		(instances
+			(project ""
+				(path "/cf39358b-0916-45cc-ae16-b13d7ea66151"
+					(reference "X8R_telemetry")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 163.83 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8ba8a41-0f45-441a-bc09-068af85f187f")
+		(property "Reference" "#PWR04"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+14.8V"
+			(at 163.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +5283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 167.64 69.85 0)
+			(at 163.83 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,6 +5364,81 @@
 			(project ""
 				(path "/cf39358b-0916-45cc-ae16-b13d7ea66151"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LM2596_Module_1")
+		(lib_id "vanttec_pcbs_libs:LM2596_Module")
+		(at 246.38 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfd2e908-8546-4ff3-9f90-6b6d889b4a1a")
+		(property "Reference" "LM2596_Module2"
+			(at 246.38 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5929154e-2c65-4975-82b3-80d815dd8e06")
+		)
+		(pin ""
+			(uuid "8dc81e0c-9def-4c3f-bdae-21753520345c")
+		)
+		(pin ""
+			(uuid "e925fbf6-beba-4023-8189-975e64da73bb")
+		)
+		(pin ""
+			(uuid "067e7aca-02aa-4cca-b56c-59294837a74f")
+		)
+		(instances
+			(project "usv_pinout"
+				(path "/cf39358b-0916-45cc-ae16-b13d7ea66151"
+					(reference "LM2596_Module2")
 					(unit 1)
 				)
 			)
