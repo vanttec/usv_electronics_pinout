@@ -1038,6 +1038,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "vanttec_pcbs_libs:Orin_Nano"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Orin_Nano"
+				(at 0 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Orin_Nano_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 11.43 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Orin_Nano_1_1"
+				(pin input line
+					(at -10.16 6.35 0)
+					(length 2.54)
+					(name "USB_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "USB_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "USB_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "USB_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "RJ45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -6.35 0)
+					(length 2.54)
+					(name "USB_C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -8.89 0)
+					(length 2.54)
+					(name "Barrel_Jack"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "vanttec_pcbs_libs:X8R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2547,6 +2737,28 @@
 		)
 		(uuid ae9cfb82-7a2d-4b3a-824f-34ced99acbc0)
 	)
+	(rectangle
+		(start 220.98 93.98)
+		(end 284.48 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e7bba04d-82d9-4d46-a523-884395ef6a1f)
+	)
+	(text "Jetson Orin Nano Super\n"
+		(exclude_from_sim no)
+		(at 251.714 161.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "179c61b5-1028-47a4-be9a-02fb15bf2452")
+	)
 	(text "STM32 Control Board"
 		(exclude_from_sim no)
 		(at 70.104 177.8 0)
@@ -2589,7 +2801,7 @@
 	)
 	(text "Step-Down Regulators (LM2596)"
 		(exclude_from_sim no)
-		(at 247.396 92.202 0)
+		(at 247.65 89.154 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2617,6 +2829,26 @@
 		)
 		(uuid "a16fea23-757d-4f8e-ba71-7f34d7461f7b")
 	)
+	(text "CAN Connected\nthrough CANable"
+		(exclude_from_sim no)
+		(at 235.204 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d01179be-1af8-4232-b431-8b9dd6f921b8")
+	)
+	(text "Barrel Jack \nConnector"
+		(exclude_from_sim no)
+		(at 239.776 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8348d0b-a33b-497f-9bf1-a4f3dfc53cca")
+	)
 	(text "LiPo Battery 1\n\n"
 		(exclude_from_sim no)
 		(at 65.024 81.788 0)
@@ -2636,6 +2868,16 @@
 			)
 		)
 		(uuid "fadb2c81-b3ce-46d0-a176-12ba7c02f776")
+	)
+	(junction
+		(at 228.6 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32c6206f-7b85-4c03-b1bd-9453295f0472")
+	)
+	(no_connect
+		(at 241.3 114.3)
+		(uuid "031f501d-9001-460e-97a4-3dec83eec2a4")
 	)
 	(no_connect
 		(at 48.26 50.8)
@@ -2740,6 +2982,10 @@
 	(no_connect
 		(at 69.85 33.02)
 		(uuid "8bd45795-158b-4a7b-868b-9b3b57f507e9")
+	)
+	(no_connect
+		(at 241.3 109.22)
+		(uuid "8d6d7c59-0b4b-41d1-88ea-31c1b8647879")
 	)
 	(no_connect
 		(at 67.31 161.29)
@@ -2909,6 +3155,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 116.84) (xy 241.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22883cb3-f1a5-40d6-ac10-6edfd110d0b4")
+	)
+	(wire
+		(pts
 			(xy 251.46 66.04) (xy 256.54 66.04)
 		)
 		(stroke
@@ -3009,6 +3265,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 123.19) (xy 43.18 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9e0402-39ab-491f-ba2f-5d42d5e6211b")
+	)
+	(wire
+		(pts
 			(xy 40.64 40.64) (xy 48.26 40.64)
 		)
 		(stroke
@@ -3039,6 +3305,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 111.76) (xy 241.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547135cd-7227-45bb-9a70-5f7aecba7ba0")
+	)
+	(wire
+		(pts
 			(xy 39.37 143.51) (xy 43.18 143.51)
 		)
 		(stroke
@@ -3056,6 +3332,26 @@
 			(type default)
 		)
 		(uuid "58d90ef1-9e2f-4544-852d-68f66aef7c54")
+	)
+	(wire
+		(pts
+			(xy 228.6 123.19) (xy 228.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b1b109-58f1-416d-b65c-f6bf1c0d0d66")
+	)
+	(wire
+		(pts
+			(xy 236.22 106.68) (xy 241.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60ef9099-4c8b-4b4c-a21c-61f1c5d469a3")
 	)
 	(wire
 		(pts
@@ -3199,13 +3495,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 123.19) (xy 43.18 123.19)
+			(xy 233.68 123.19) (xy 233.68 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92bea9d8-caf0-49ce-b5f2-3477f63a8679")
+		(uuid "921cefc8-d4a3-45b4-b2f3-495f58b33b4b")
 	)
 	(wire
 		(pts
@@ -3236,6 +3532,16 @@
 			(type default)
 		)
 		(uuid "980a81bb-b010-4cae-92da-51fd5baadd34")
+	)
+	(wire
+		(pts
+			(xy 228.6 123.19) (xy 233.68 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac22bf9-997b-4aa9-b302-e54420b90718")
 	)
 	(wire
 		(pts
@@ -3429,6 +3735,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 104.14) (xy 241.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55a54e0-30de-4bd4-bd69-5be6c918773f")
+	)
+	(wire
+		(pts
 			(xy 41.91 55.88) (xy 48.26 55.88)
 		)
 		(stroke
@@ -3446,6 +3762,16 @@
 			(type default)
 		)
 		(uuid "df0cb934-650f-4471-9edd-1b2778077be7")
+	)
+	(wire
+		(pts
+			(xy 228.6 116.84) (xy 228.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a5ddd6-e231-446c-b8c2-389356e2d80f")
 	)
 	(wire
 		(pts
@@ -3479,6 +3805,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 101.6) (xy 241.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec94b92f-a203-4089-a092-13159efd1653")
+	)
+	(wire
+		(pts
 			(xy 104.14 152.4) (xy 119.38 152.4)
 		)
 		(stroke
@@ -3496,6 +3832,28 @@
 			(type default)
 		)
 		(uuid "f5ef1f42-1c9e-4600-8d2e-acb86d1ceae8")
+	)
+	(global_label "Jetson_Barrel_Jack_GND"
+		(shape input)
+		(at 233.68 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0118e772-e74e-453c-8403-609e4fc2e248")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 151.575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "ESC2_VIN"
 		(shape input)
@@ -3554,6 +3912,28 @@
 		(uuid "12cf3ff1-25e5-4e41-b817-55f15528b2fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 232.41 58.5022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ZED2i"
+		(shape input)
+		(at 233.68 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13d30395-e605-49e7-910a-953042ef4bfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.252 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +4253,7 @@
 	)
 	(global_label "X8R_SBUS"
 		(shape input)
-		(at 29.21 123.19 180)
+		(at 27.94 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3883,7 +4263,7 @@
 		)
 		(uuid "52904be3-fc79-4692-a8d1-0ce3316b5ac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.5487 123.19 0)
+			(at 15.2787 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,6 +4559,28 @@
 			)
 		)
 	)
+	(global_label "CAN"
+		(shape input)
+		(at 233.68 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3859e08-890e-4aba-bc5e-4eefb8c479aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.0057 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC1_GND"
 		(shape input)
 		(at 40.64 38.1 180)
@@ -4201,6 +4603,28 @@
 			)
 		)
 	)
+	(global_label "Ellipse-D"
+		(shape input)
+		(at 236.22 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb56780a-7336-4016-9c5a-7d22f2ecdcd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.0425 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LM2596_1+"
 		(shape input)
 		(at 139.7 53.34 180)
@@ -4214,6 +4638,28 @@
 		(uuid "cb924bff-464c-4d7f-908a-c6e660dfca89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.6478 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Jetson_Barrel_Jack_VIN"
+		(shape input)
+		(at 228.6 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd401c15-95cc-4f36-ab29-8e792d7029f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 150.7284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,6 +4797,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LiDAR"
+		(shape input)
+		(at 233.68 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4dcefaf-e4fe-45cf-97f2-dc28d0104ced")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.4333 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5159,6 +5627,91 @@
 			(project ""
 				(path "/cf39358b-0916-45cc-ae16-b13d7ea66151"
 					(reference "LM2596_Module1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "vanttec_pcbs_libs:Orin_Nano")
+		(at 251.46 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73e27234-b7db-4572-8a8d-1b3960213e5f")
+		(property "Reference" "Orin_Nano1"
+			(at 264.16 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 264.16 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "84d7697f-6682-45d0-849f-26adad286509")
+		)
+		(pin ""
+			(uuid "0931d7b8-e857-441a-ae00-ae8cbd6ead2a")
+		)
+		(pin ""
+			(uuid "08f04e27-7351-42c9-a9fb-39bfda774564")
+		)
+		(pin ""
+			(uuid "8b36cf04-d91d-49b4-9aff-3d95fe2f93db")
+		)
+		(pin ""
+			(uuid "7a372080-bf98-4901-9b04-96ee116f05d5")
+		)
+		(pin ""
+			(uuid "39f32c59-612d-492c-ab45-cfd623c634e6")
+		)
+		(pin ""
+			(uuid "4961f1fc-42bf-4093-8926-2a05e64b07d2")
+		)
+		(instances
+			(project ""
+				(path "/cf39358b-0916-45cc-ae16-b13d7ea66151"
+					(reference "Orin_Nano1")
 					(unit 1)
 				)
 			)
